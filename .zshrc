@@ -189,5 +189,10 @@ SPACESHIP_DOCKER_SHOW=false
 # SPACESHIP_PYENV_PREFIX="python:("
 # SPACESHIP_PYENV_SUFFIX=") "
 # SPACESHIP_PYENV_SYMBOL=""
+
+# NVM
 export NVM_DIR="/home/adeeb/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Aliases
+alias zshreload="source ~/.zshrc"
